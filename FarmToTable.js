@@ -7,13 +7,13 @@
 function jsAjax(){
     //use Fetch to retrieve data
     
-    fetch('FarmsRanch')
+    fetch('FarmsRanch.json')
         .then(conversion) //convert data to usable form
         .then(callback) //send retrieved data to a callback function
     };
 
 function add_second_layer(){
-    fetch('Seafood')
+    fetch('Seafood.json')
         .then(conversion1)
         .then(callback1)    
     };
