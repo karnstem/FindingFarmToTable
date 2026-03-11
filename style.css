@@ -1,6 +1,38 @@
 h1{
     text-align: center;
     font-size: 30px;
-    color: #0a3323;
+    color: #8eb0a3;
+    bottom: 16px;
+    font-family: "Bookman", "New Century Schoolbook", serif;
+    text-shadow: 0 0 8px black;
 }
 
+h2{
+    text-align: center;
+    font-size: 20px;
+    color: #8eb0a3;
+    bottom: 8px;
+    font-family: "Bookman", "New Century Schoolbook", serif;
+    text-shadow: 0 0 5px black;
+}
+
+h3{
+    text-align: left;
+    font-size: 16px;
+    color: #000000;
+    bottom: 4px;
+    font-family: "Bookman", "New Century Schoolbook", serif;
+    text-shadow: 0 0 4px #8eb0a3;
+}
+
+body{
+    background-color: rgb(40, 62, 47);
+}
+#radiusSlide{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 200px;
+    height: 6px;
+    background: #8eb0a3;
+    border-radius: 5px;
+}
