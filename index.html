@@ -7,6 +7,11 @@
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
         <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
         <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/leaflet-geosearch@4.4.0/dist/geosearch.css"
+            />
+        <script src="https://unpkg.com/leaflet-geosearch@4.4.0/dist/bundle.min.js"></script>
         <title>Finding Farm to Table</title>
         <style> 
         #map{ height: 500px;
@@ -22,14 +27,15 @@
             
             margin: 20px
         }
-
+        
         </style>
             <link rel="stylesheet" href="style.css">
 
     </head>
     <body>
+        <h6>Map made by Mackenzie Karnstein GEOG 572</h6>
         <h1>Finding Farm to Table</h1>
-        <h2>Helping Oregonians identify their community network of local farmers and growers</h2>
+        <h2>Helping Oregonians identify their community network of local farmers, fishers, and growers</h2>
         <div id="map"></div>
         <script type="text/javascript" src="FarmToTable.js"></script>
         <div id="radiusControl"; style="position:absolute; bottom: 100px; color: #8eb0a3; left: 50%; text-shadow: 0 0 3px black; padding: 10px;" >
@@ -40,5 +46,9 @@
             <h3>Locations within Chosen Radius:</h3>
             <ul id="displayAttributes"></ul>
         </div>
+        <h5>Data Sources: </h5>
+        <h4>Oregon Sea Grant. (n.d.) Where to Buy Oregon Seafood. Oregon State University. <br>https://seagrant.oregonstate.edu/eat-oregon-seafood/where-to-buy.</h4>
+        <h4>Pastured Products Directory – Oregon. (n.d.). EatWild. <br>https://eatwild.com/products/oregon.html.</h4>
+        <h4>U.S. Farm Trails: Find Local Farms in Oregon. (n.d.) <br>https://www.usfarmtrail.com/state/oregon.html.</h4>
     </body>
 </html>
